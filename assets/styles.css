@@ -1,0 +1,87 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Navigation and Input Styling */
+.nav {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.stock-input, .date-picker, .forecast-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box; /* Added for input width consistency */
+}
+
+.button, .submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.button:hover, .submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Content Styling */
+.content {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.header, .graphs-content, .main-content, .forecast-content {
+    margin-bottom: 20px;
+}
+
+.description_ticker {
+    color: #555;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Company Info Styling */
+.company-info img {
+    height: 100px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.company-info h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.start, .date-picker-label {
+    font-weight: bold;
+}
+
+/* Additional Styling for Responsiveness */
+@media (max-width: 768px) {
+    .input-group, .button, .submit-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
